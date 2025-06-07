@@ -1,0 +1,22 @@
+### GET request to example server
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/api/v1/software
+
+###
+GET http://localhost:8080/api/v1/software/1
+
+###
+
+POST http://localhost:8080/api/v1/software
+Content-Type: application/json
+
+{
+  "name": "bor3i",
+  "techStack": "python , css ,js"
+}
+
+
+
+
